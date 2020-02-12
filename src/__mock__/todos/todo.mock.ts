@@ -1,5 +1,5 @@
-import { ITodo } from '../todos/todo.interface';
-import { TodoDao } from '../dao/Todo.dao';
+import { ITodo } from '../../todos/todo.interface';
+import { TodoDao } from '../../dao/Todo.dao';
 
 export const TODOS_ARAY: ITodo[] = [
   {

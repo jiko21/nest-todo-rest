@@ -2,9 +2,8 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { TodosService } from './todos.service';
 import { Todo } from '../entity/Todo';
 import { createConnection, getConnection, getRepository, Repository } from 'typeorm';
-import { TODOS, TODOS_ARAY } from '../__mock__/todo.mock';
+import { TODOS, TODOS_ARAY } from '../__mock__/todos/todo.mock';
 import { ITodo } from './todo.interface';
-import { TodoDao } from '../dao/Todo.dao';
 
 describe('TodosService', () => {
   let service: TodosService;
